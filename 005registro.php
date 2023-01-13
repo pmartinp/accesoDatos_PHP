@@ -9,7 +9,7 @@
     <script defer src="js/bootstrap.bundle.js" type="text/javascript"></script>
 </head>
 <body>
-    <form class="container g-3 needs-validation mt-5 w-50" action="006nuevoUsuario.php" method="post" novalidate>
+    <form class="container g-3 needs-validation mt-5 w-50" action="006nuevoUsuario.php" method="post">
       <div class="col-md-12">
         <label for="validationCustom01" class="form-label">Name</label>
         <input type="text" class="form-control" id="validationCustom01" name="name" required>

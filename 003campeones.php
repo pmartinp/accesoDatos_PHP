@@ -39,8 +39,11 @@
             include_once("connection.php");
 
             if (isset($_GET['column']) && isset($_GET['order'])) {
-                // CONSULTA A LA BBDD
-                $consulta = "SELECT * FROM champ ORDER BY CONCAT($_GET[column]) $_GET[order]";
+                if ($_GET['column']=='difficulty') {
+                    $consulta = "SELECT * FROM champ ORDER BY $_GET[column] $_GET[order]";
+                }else{
+                    $consulta = "SELECT * FROM champ ORDER BY CONCAT($_GET[column]) $_GET[order]";
+                }
             }else{
                 $consulta = "SELECT * FROM champ";
             }

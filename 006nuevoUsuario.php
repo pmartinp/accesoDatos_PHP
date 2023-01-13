@@ -16,11 +16,12 @@ function insertion($user, $conexion){
     $insert -> bindParam(":password", password_hash($user[2], PASSWORD_DEFAULT));
     $insert -> bindParam(":email", $user[3]);
 
-    if($insert -> execute()){
-        echo "Usuarios insertados correctamente";
+    try{
+        $insert -> execute();
         header('location: 004login.php');
     }
-    else{
-        echo "Error en la inserción de datos";
+    catch(PDOException $e){
+        echo "Error en la inserción de datos en la BBDD " . $e->getMessage();
+        header('refresh:5; 005registro.php');
     }
 }
