@@ -22,8 +22,8 @@ CREATE TABLE user(
 
 /* Data insertion*/
 INSERT INTO champ(`name`, rol, difficulty, description)
-VALUES ('Yasuo','Luchador','Alta','Campeón usado por enfermos mentales para hacerte perder la partida y quete entre restricción de chat durante 5 días.'),
-('Garen','Luchador','Baja','La peonza de Demacia, mata pulsando un botón. Hasta un gabacho podría ganar una partida jugando semejante basura.'),
-('Teemo','Tirador','Baja','El diablillo de la grieta, solamente es jugado por enfermos mentales, que deberían ser castigados con cadena perpetua, para dar sida en la toplane.'),
-('Yummi','Soporte','Baja','Literalmente puedes jugarlo con los pies, si quieres apagar el cerebro este es tu campeón.'),
-('Hecarim','Luchador','Moderada','El Fernando Alonso de la grieta del invocador, juégalo con una yummi encima y un Zilean en tu equipo y dale asco a la gente corriendo más rápido que la tortuga ninja Mbappe');
+VALUES ('Yasuo','Luchador','Alta','Yasuo, un jonio de fuerte determinación, es un ágil espadachín capaz de controlar el viento y utilizarlo contra sus enemigos. Cuando era un joven altivo, fue acusado de asesinar a su maestro. Incapaz de demostrar su inocencia, se vio obligado a matar a su propio hermano en defensa propia.'),
+('Garen','Luchador','Baja','Garen, un orgulloso y noble soldado, lucha a la cabeza de la Vanguardia Impertérrita. Es querido entre sus compañeros y respetado por sus enemigos en su papel de vástago de la prestigiosa familia Crownguard, encargada de defender Demacia y sus ideales.'),
+('Teemo','Tirador','Baja','Teemo no se inmuta ante los obstáculos más peligrosos y amenazadores mientras explora el mundo con un entusiasmo infinito y un espíritu lleno de alegría.'),
+('Yummi','Soporte','Baja','Yuumi, una gatita mágica proveniente de la Ciudad de Bandle, alguna vez fue la compañera de una hechicera yordle, Norra. Cuando su dueña desapareció misteriosamente, Yuumi se convirtió en la Guardiana del Libro de los Umbrales'),
+('Hecarim','Luchador','Moderada','Hecarim es una fusión espectral de hombre y bestia, condenado a arrollar las almas de los vivos por toda la eternidad. Cuando las Islas Bendecidas cayeron en la sombra, este orgulloso caballero fue aniquilado por las energías destructivas de la Ruina, junto con toda su caballería y sus monturas. Ahora, cada vez que la Niebla Negra llega a Runaterra, lidera su devastadora ofensiva, deleitándose en la matanza y aplastando al enemigo bajo sus cascos blindados.');
